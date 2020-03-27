@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/corey-soccer-site/static/css/main.631b7064.chunk.css",
-    "main.js": "/corey-soccer-site/static/js/main.8f7d016c.chunk.js",
-    "main.js.map": "/corey-soccer-site/static/js/main.8f7d016c.chunk.js.map",
+    "main.js": "/corey-soccer-site/static/js/main.e1e79cc5.chunk.js",
+    "main.js.map": "/corey-soccer-site/static/js/main.e1e79cc5.chunk.js.map",
     "runtime-main.js": "/corey-soccer-site/static/js/runtime-main.70ba0447.js",
     "runtime-main.js.map": "/corey-soccer-site/static/js/runtime-main.70ba0447.js.map",
-    "static/js/2.b7a0605a.chunk.js": "/corey-soccer-site/static/js/2.b7a0605a.chunk.js",
-    "static/js/2.b7a0605a.chunk.js.map": "/corey-soccer-site/static/js/2.b7a0605a.chunk.js.map",
+    "static/js/2.5d3fd896.chunk.js": "/corey-soccer-site/static/js/2.5d3fd896.chunk.js",
+    "static/js/2.5d3fd896.chunk.js.map": "/corey-soccer-site/static/js/2.5d3fd896.chunk.js.map",
     "index.html": "/corey-soccer-site/index.html",
-    "precache-manifest.bc6076db1ef206be54c5c8b495f1bd43.js": "/corey-soccer-site/precache-manifest.bc6076db1ef206be54c5c8b495f1bd43.js",
+    "precache-manifest.6327edcb6217ea7572756602713a112c.js": "/corey-soccer-site/precache-manifest.6327edcb6217ea7572756602713a112c.js",
     "service-worker.js": "/corey-soccer-site/service-worker.js",
     "static/css/main.631b7064.chunk.css.map": "/corey-soccer-site/static/css/main.631b7064.chunk.css.map",
-    "static/js/2.b7a0605a.chunk.js.LICENSE.txt": "/corey-soccer-site/static/js/2.b7a0605a.chunk.js.LICENSE.txt",
+    "static/js/2.5d3fd896.chunk.js.LICENSE.txt": "/corey-soccer-site/static/js/2.5d3fd896.chunk.js.LICENSE.txt",
     "static/media/pic1.jpg": "/corey-soccer-site/static/media/pic1.f706760f.jpg",
     "static/media/pic2.jpg": "/corey-soccer-site/static/media/pic2.2bf9c010.jpg",
-    "static/media/pic3.jpg": "/corey-soccer-site/static/media/pic3.a70f2ef0.jpg"
+    "static/media/pic3.jpg": "/corey-soccer-site/static/media/pic3.a70f2ef0.jpg",
+    "static/media/profile.jpg": "/corey-soccer-site/static/media/profile.7ab3518b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.70ba0447.js",
-    "static/js/2.b7a0605a.chunk.js",
+    "static/js/2.5d3fd896.chunk.js",
     "static/css/main.631b7064.chunk.css",
-    "static/js/main.8f7d016c.chunk.js"
+    "static/js/main.e1e79cc5.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/corey-soccer-site/precache-manifest.bc6076db1ef206be54c5c8b495f1bd43.js"
+  "/corey-soccer-site/precache-manifest.6327edcb6217ea7572756602713a112c.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -93,7 +93,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <iframe title="Highlights" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz239" allowFullScreen allow="autoplay" />
+                <iframe title="Highlights" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz239?queue-enable=false" allowFullScreen />
               </div>
             )}
           />
@@ -105,7 +105,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <iframe title="Breakaways" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz1po" allowFullScreen allow="autoplay" />
+                <iframe title="Breakaways" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz1po?queue-enable=false" allowFullScreen />
               </div>
             )}
           />
@@ -117,7 +117,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <iframe title="Catching" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz235" allowFullScreen allow="autoplay" />
+                <iframe title="Catching" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz235?queue-enable=false" allowFullScreen />
               </div>
             )}
           />
@@ -129,7 +129,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <iframe title="Goal Kicks" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz23a" allowFullScreen allow="autoplay" />
+                <iframe title="Goal Kicks" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz23a?queue-enable=false" allowFullScreen />
               </div>
             )}
           />
@@ -141,7 +141,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <iframe title="Punts" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz23b" allowFullScreen allow="autoplay" />
+                <iframe title="Punts" frameBorder="0" width="640" height="360" src="https://www.dailymotion.com/embed/video/x7sz23b?queue-enable=false" allowFullScreen />
               </div>
             )}
           />

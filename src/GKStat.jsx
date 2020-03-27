@@ -1,7 +1,7 @@
 import React from 'react';
 
 const statList = [{ title: 'Shots on Goal:', value: ' 23' }, { title: 'Saved:', value: ' 21' }, { title: 'Allowed:', value: ' 2' }];
-const totalList = [{ title: 'GAA:', value: ' 0.3' }, { title: 'Total Goals Against:', value: ' 2' }, { title: 'Total Shutouts:', value: ' 6' }, { title: 'Total Save Percentage:', value: ' 91.3%' }];
+const totalList = [{ title: 'GAA:', value: ' 0.3' }, { title: 'Total Goals Against:', value: ' 2' }, { title: 'Total Shutouts:', value: ' 6' }, { title: 'Total Save Percentage:', value: ' 91.3%' }, { title: 'Best Mile:', value: ' 6:22' }];
 const GKStats = () => {
   return (
     <div>

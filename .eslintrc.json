@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "comma-dangle": [2, "always-multiline"],
+    "semi": "error",
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "react/prop-types": 0
+  }
+}

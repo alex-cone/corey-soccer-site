@@ -121,7 +121,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7uu81w?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/y55VAIfPI40" />
               </div>
             )}
           />
@@ -133,7 +133,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7uu81v?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/WSEo6R2gLjs" />
               </div>
             )}
           />
@@ -145,11 +145,11 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7uu81z?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/25-Jy1hAgh4 " />
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7uu81x?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/osjY5Q49RQY" />
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7uu81y?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/1ZqvKQ2v74M" />
               </div>
             )}
           />
@@ -161,7 +161,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7sz1po?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/Kp22IpuXCpc" />
               </div>
             )}
           />
@@ -173,7 +173,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7sz235?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/7O0lVZwW9D0" />
               </div>
             )}
           />
@@ -185,7 +185,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7sz23a?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/wClLa3PK6ws" />
               </div>
             )}
           />
@@ -197,7 +197,7 @@ function App() {
             description={(
               <div style={{ textAlign: 'center' }} className="videoWrapper">
                 <br />
-                <Video src="https://www.dailymotion.com/embed/video/x7sz23b?queue-enable=false" />
+                <Video src="https://www.youtube.com/embed/FNsxpVF7ISY" />
               </div>
             )}
           />

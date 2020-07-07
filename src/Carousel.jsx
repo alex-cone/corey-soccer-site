@@ -4,7 +4,7 @@
 import React from 'react';
 import { Button, Card, Container, Label, Transition } from 'semantic-ui-react';
 import './carousel.css';
-import { isMobile, isLandscape } from './Utils';
+import { isMobile } from './Utils';
 
 class Carousel extends React.Component {
   constructor(props) {

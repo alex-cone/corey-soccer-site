@@ -1,7 +1,8 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-nested-ternary */
+import ReactGA from 'react-ga';
 import moment from 'moment';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card, Container, Grid, Image, Menu } from 'semantic-ui-react';
 import './App.css';
 import Carousel from './Carousel';
@@ -54,24 +55,34 @@ if (document.location.hash) {
   }
 }
 
+ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.pageview(window.location.pathname + window.location.hash);
+
 function App() {
   const [landScape, setLandScape] = useState(isLandscape());
   window.addEventListener('resize', () => {
     setLandScape(isLandscape());
   });
   const [id, setId] = useState(document.location.hash.replace('#', '').replace('/', ''));
+  const changeId = (key) => {
+    ReactGA.event({
+      category: 'Home',
+      action: `Clicked on ${key}`,
+    });
+    setId(key);
+  };
   return (
     <Grid style={{ width: '100%', paddingLeft: isMobile() ? '25px' : '0px', backgroundColor: '#034694' }}>
       <Grid.Row>
         <Container style={{ width: !isMobile() ? '60%' : '100%' }}>
           <Menu widths={7} stackable fluid>
-            <Menu.Item href='#profile' key="profile" active={id === 'profile'} name="Profile" onClick={() => setId('profile')} />
-            <Menu.Item href='#highlights' key="highlights" active={id === 'highlights'} name="Highlights" onClick={() => setId('highlights')} />
-            <Menu.Item href='#training' key="training" active={id === 'training'} name="Training" onClick={() => setId('training')} />
-            <Menu.Item href='#breakaways' key="breakaways" active={id === 'breakaways'} name="Breakaways" onClick={() => setId('breakaways')} />
-            <Menu.Item href='#catching' key="catching" active={id === 'catching'} name="Catching" onClick={() => setId('catching')} />
-            <Menu.Item href='#goalkicks' key="goalkicks" active={id === 'goalkicks'} name="Goal Kicks" onClick={() => setId('goalkicks')} />
-            <Menu.Item href='#punts' key="punts" active={id === 'punts'} name="Punts" onClick={() => setId('punts')} />
+            <Menu.Item href='#profile' key="profile" active={id === 'profile'} name="Profile" onClick={() => changeId('profile')} />
+            <Menu.Item href='#highlights' key="highlights" active={id === 'highlights'} name="Highlights" onClick={() => changeId('highlights')} />
+            <Menu.Item href='#training' key="training" active={id === 'training'} name="Training" onClick={() => changeId('training')} />
+            <Menu.Item href='#breakaways' key="breakaways" active={id === 'breakaways'} name="Breakaways" onClick={() => changeId('breakaways')} />
+            <Menu.Item href='#catching' key="catching" active={id === 'catching'} name="Catching" onClick={() => changeId('catching')} />
+            <Menu.Item href='#goalkicks' key="goalkicks" active={id === 'goalkicks'} name="Goal Kicks" onClick={() => changeId('goalkicks')} />
+            <Menu.Item href='#punts' key="punts" active={id === 'punts'} name="Punts" onClick={() => changeId('punts')} />
           </Menu>
           <Carousel
             ls={landScape}

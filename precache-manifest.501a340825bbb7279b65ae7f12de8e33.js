@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "add8d01625a945940c682619f239a121",
+    "revision": "b0ce98861484972d9bfb85d03349ad42",
     "url": "/corey-soccer-site/index.html"
   },
   {
-    "revision": "ee1b10243ec430072f20",
+    "revision": "923623d10f0c85d3dc7c",
     "url": "/corey-soccer-site/static/css/main.631b7064.chunk.css"
   },
   {
-    "revision": "ea631cf68ca6b0a548e0",
-    "url": "/corey-soccer-site/static/js/2.5d3fd896.chunk.js"
+    "revision": "27190cce61039b61a71d",
+    "url": "/corey-soccer-site/static/js/2.7f4e2985.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/corey-soccer-site/static/js/2.5d3fd896.chunk.js.LICENSE.txt"
+    "url": "/corey-soccer-site/static/js/2.7f4e2985.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee1b10243ec430072f20",
-    "url": "/corey-soccer-site/static/js/main.de880bf2.chunk.js"
+    "revision": "923623d10f0c85d3dc7c",
+    "url": "/corey-soccer-site/static/js/main.d658e5cd.chunk.js"
   },
   {
     "revision": "25dbc50f07d76bf188e3",
     "url": "/corey-soccer-site/static/js/runtime-main.70ba0447.js"
+  },
+  {
+    "revision": "a1c382632f946647fb32a72116bd34ca",
+    "url": "/corey-soccer-site/static/media/diving_pic.a1c38263.jpg"
   },
   {
     "revision": "f706760fe035543a82ebcf601493fe80",

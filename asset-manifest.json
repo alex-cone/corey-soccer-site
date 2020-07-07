@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/corey-soccer-site/static/css/main.631b7064.chunk.css",
-    "main.js": "/corey-soccer-site/static/js/main.30913c4e.chunk.js",
-    "main.js.map": "/corey-soccer-site/static/js/main.30913c4e.chunk.js.map",
+    "main.js": "/corey-soccer-site/static/js/main.ef82a91c.chunk.js",
+    "main.js.map": "/corey-soccer-site/static/js/main.ef82a91c.chunk.js.map",
     "runtime-main.js": "/corey-soccer-site/static/js/runtime-main.70ba0447.js",
     "runtime-main.js.map": "/corey-soccer-site/static/js/runtime-main.70ba0447.js.map",
     "static/js/2.4f834d2d.chunk.js": "/corey-soccer-site/static/js/2.4f834d2d.chunk.js",
     "static/js/2.4f834d2d.chunk.js.map": "/corey-soccer-site/static/js/2.4f834d2d.chunk.js.map",
     "index.html": "/corey-soccer-site/index.html",
-    "precache-manifest.ae2aa1c7c8c368e72df2c27a4a542a10.js": "/corey-soccer-site/precache-manifest.ae2aa1c7c8c368e72df2c27a4a542a10.js",
+    "precache-manifest.68ea9dfc599092253c443984ea6ef608.js": "/corey-soccer-site/precache-manifest.68ea9dfc599092253c443984ea6ef608.js",
     "service-worker.js": "/corey-soccer-site/service-worker.js",
     "static/css/main.631b7064.chunk.css.map": "/corey-soccer-site/static/css/main.631b7064.chunk.css.map",
     "static/js/2.4f834d2d.chunk.js.LICENSE.txt": "/corey-soccer-site/static/js/2.4f834d2d.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.70ba0447.js",
     "static/js/2.4f834d2d.chunk.js",
     "static/css/main.631b7064.chunk.css",
-    "static/js/main.30913c4e.chunk.js"
+    "static/js/main.ef82a91c.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "110b8c882cba88ee7960ced3a02a7190",
+    "revision": "69f0c8245bab351b70db9bbd83edbc48",
     "url": "/corey-soccer-site/index.html"
   },
   {
-    "revision": "f2d96db7b117c3adb203",
+    "revision": "b882ffb9f699b4f561a4",
     "url": "/corey-soccer-site/static/css/main.631b7064.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corey-soccer-site/static/js/2.4f834d2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2d96db7b117c3adb203",
-    "url": "/corey-soccer-site/static/js/main.30913c4e.chunk.js"
+    "revision": "b882ffb9f699b4f561a4",
+    "url": "/corey-soccer-site/static/js/main.ef82a91c.chunk.js"
   },
   {
     "revision": "25dbc50f07d76bf188e3",

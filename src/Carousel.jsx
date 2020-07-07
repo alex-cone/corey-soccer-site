@@ -1,14 +1,17 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Button, Card, Container, Label, Transition } from 'semantic-ui-react';
 import './carousel.css';
+import { isMobile, isLandscape } from './Utils';
 
 class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       currentIndex: 0,
+      ls: this.props.ls,
     };
   }
 
@@ -22,6 +25,12 @@ class Carousel extends React.Component {
         } catch (e) { }
       }, this.props.duration);
     }
+  }
+
+  static getDerivedStateFromProps(nextProps) {
+    return {
+      ls: nextProps.ls,
+    };
   }
 
   componentWillUnmount() {
@@ -67,54 +76,55 @@ class Carousel extends React.Component {
 
   render() {
     return (
-      <Container fluid className='carousel-container'>
-        <Card.Content className='carousel'>
-          {
-            (this.props.elements).map((element, index) => {
-              if (this.state.currentIndex === index) {
-                return (
-                  <Transition key={`index_${+new Date()}`} transitionOnMount visible duration={750} animation={this.props.animation}>
-                    {this.props.elements[index].render()}
-                  </Transition>
-                );
-              }
-              return null;
-            })
-          }
-          <div className='carousel-indicators'>
+      <div>
+        <Container className='carousel-container' style={{ height: isMobile() ? (this.state.ls ? '250px' : '120px') : '400px', backgroundColor: 'black' }}>
+          <Card.Content className='carousel'>
             {
-              (this.props.showIndicators)
-                ? (this.props.elements).map((elemnt, index) => {
-                  if (this.state.currentIndex === index) {
-                    return (
-                      <a>
-                        <Label onClick={() => this.gotToSlide(index)} circular color='black' empty />
-                      </a>
-                    );
-                  }
+              (this.props.elements).map((element, index) => {
+                if (this.state.currentIndex === index) {
+                  return (
+                    <Transition key={`index_${+new Date()}`} transitionOnMount visible duration={750} animation={this.props.animation}>
+                      {this.props.elements[index].render()}
+                    </Transition>
+                  );
+                }
+                return null;
+              })
+            }
+          </Card.Content>
+        </Container>
+        <div className='carousel-indicators'>
+          {
+            (this.props.showIndicators)
+              ? (this.props.elements).map((elemnt, index) => {
+                if (this.state.currentIndex === index) {
                   return (
                     <a>
-                      <Label onClick={() => this.gotToSlide(index)} circular color='grey' empty />
+                      <Label onClick={() => this.gotToSlide(index)} circular color='black' empty />
                     </a>
                   );
+                }
+                return (
+                  <a>
+                    <Label onClick={() => this.gotToSlide(index)} circular color='grey' empty />
+                  </a>
+                );
 
-                })
-                : null
-            }
-          </div>
-          {
-            (this.props.showNextPrev) ?
-              <Button className='prev' onClick={() => this.prevClicked()} icon='caret left' />
+              })
               : null
           }
-          {
-            (this.props.showNextPrev) ?
-              <Button className='next' onClick={() => this.nextClicked()} icon='caret right' />
-              : null
-          }
-
-        </Card.Content>
-      </Container>
+        </div>
+        {
+          (this.props.showNextPrev) ?
+            <Button className='prev' onClick={() => this.prevClicked()} icon='caret left' />
+            : null
+        }
+        {
+          (this.props.showNextPrev) ?
+            <Button className='next' onClick={() => this.nextClicked()} icon='caret right' />
+            : null
+        }
+      </div>
     );
   }
 }

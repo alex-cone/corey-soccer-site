@@ -75,7 +75,7 @@ function App() {
     <div style={{ width: '100%', backgroundColor: '#034694' }}>
       <Grid style={{ width: '100%', paddingLeft: isMobile() ? '25px' : '0px', backgroundColor: '#034694' }}>
         <Grid.Row>
-          <Container style={{ width: !isMobile() ? '60%' : '100%' }}>
+          <Container style={{ justifyContent: 'center', width: !isMobile() ? '60%' : '100%' }}>
             <Menu widths={7} stackable fluid>
               <Menu.Item href='#profile' key="profile" active={id === 'profile'} name="Profile" onClick={() => changeId('profile')} />
               <Menu.Item href='#highlights' key="highlights" active={id === 'highlights'} name="Highlights" onClick={() => changeId('highlights')} />
@@ -93,7 +93,14 @@ function App() {
               showNextPrev={false}
               showIndicators
             />
-            <Card.Group id='profile' fluid itemsPerRow={isMobile() ? 1 : 2}>
+            <Card
+              style={{ display: 'flex', textAlign: 'center', width: !isMobile() ? '50%' : '100%', backgroundColor: '#d1d3d4', marginLeft: !isMobile() ? '25%' : '0%' }}
+              image={profile}
+              header='Corey Chachere'
+              meta={`${currentAge} years old (Born 01/14/2006)`}
+              description={Stats}
+            />
+            {/* <Card.Group id='profile' fluid itemsPerRow={isMobile() ? 1 : 2}>
               <Card
                 style={{ display: 'flex', backgroundColor: '#d1d3d4' }}
                 image={profile}
@@ -113,7 +120,19 @@ function App() {
                 )}
                 description={GKStat}
               />
-            </Card.Group>
+            </Card.Group> */}
+            <Card
+              id='highlights'
+              style={{ textAlign: 'center', display: 'flex', backgroundColor: '#d1d3d4' }}
+              fluid
+              header='2021 Highlights'
+              description={(
+                <div style={{ textAlign: 'center' }} className="videoWrapper">
+                  <br />
+                  <Video src="https://www.youtube.com/embed/D6mdpzXy_Ww" />
+                </div>
+              )}
+            />
             <Card
               id='highlights'
               style={{ textAlign: 'center', display: 'flex', backgroundColor: '#d1d3d4' }}

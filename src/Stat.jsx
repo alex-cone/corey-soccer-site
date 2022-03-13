@@ -1,6 +1,6 @@
 import React from 'react';
 
-const statList = [{ title: 'Height:', value: ' 5\' 9"' }, { title: 'Weight:', value: ' 120 lbs.' }];
+const statList = [{ title: 'Height:', value: ' 6\' 0"' }, { title: 'Weight:', value: ' 140 lbs.' }, { title: 'GPA:', value: ' 3.95/4.0 ' }, { title: 'Weighted GPA:', value: ' 4.35/5.0 ' }];
 const Stats = () => {
   return (
     <div>
